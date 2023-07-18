@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="pop_up open">
+            <div class="pop_row">
+                <div class="pop_text">
+                    <h3 class="pop_title">
+                        WELCOME
+                    </h3>
+                    <div class="pop_desc">
+                        <p>
+                          You have <span class="pop_marked">30 seconds</span>. to find 10 BMW Emblems
+                        </p>
+                    </div>
+                </div>
+                <div class="pop_button pop_close">
+                    <p class="pop_button_title">
+                        START
+                    </p>
+                </div>
+            </div>
+         </div>
+        <div class="coll">
+            <div class="restart_text">
+                <p>You have <span class="text time_count">00:00</span>s</p>
+            </div>
+            </div>
+        <div class="title_game">
+            <h1 class="title">
+              FIND <span class="pop_marked">BMW</span> GAME <br>
+            </h1>
+        </div>
+        
+        <table class="table">
+            
+        </table>
+        <div class="bottom_buttons">
+            <div class="col">
+                <div class="bullet_num">
+                    <p class="text">You found: <span class="bmw_count">0</span> Emblem</p>
+                </div>
+            </div>
+            </div>
+    <video class="background-video" src="./img/bmw-m4-liberty.3840x2160.mp4" autoplay loop></video>
+    </div>
+    <div class="modal">
+        <div class="modal_panel">
+          <div class="modal_text">
+            <h3 class="pop_title">
+                <span class="pop_marked">GAME OVER <br><br>  You WIN</span>
+            </h3>
+           
+          </div>
+          <!-- <div class="col">
+            <div class="bullet_num">
+                <p class="text">You found: <span class="bmww_count">0</span> Emblem</p>
+
+            </div>
+          </div> -->
+          <button class="restart_button" onClick="window.location.reload();">
+            <div class="restart_text">
+                <p>Play Again</p>
+            </div>
+          </button>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
